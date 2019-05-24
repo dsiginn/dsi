@@ -42,13 +42,7 @@ By utilizing Seasborn/Matplotlib visualization, data is displayed in queries, hi
 |13|**reading_s18**|*int*|SAT| Evidence-Based Reading and Writing Score 2018|
 |14|**maths_s18**|*int*|SAT| Math Score 2018|
 |15|**total_s18**|*int*|SAT| Total Score 2018|
-|16|**dfact2017**|*dataframe*|ACT|ACT 2017 Dataframe|
-|17|**dfact2018**|*dataframe*|ACT|ACT 2018 Dataframe|
-|18|**dfsat2017**|*dataframe*|SAT|SAT 2017 Dataframe|
-|19|**dfsat2018**|*dataframe*|SAT|SAT 2018 Dataframe|
-|20|**combined17**|*dataframe*|SAT & ACT|Combined 2017 SAT & ACT Dataframe|
-|21|**combined18**|*dataframe*|SAT & ACT|Combined 2018 SAT & ACT Dataframe|
-|22|**final**|*dataframe*|SAT & ACT|Combined 2017/2018 SAT & ACT Dataframe|
+
 
 
 ## Conclusions and Recommendations
