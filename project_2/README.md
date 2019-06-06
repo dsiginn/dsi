@@ -93,3 +93,22 @@ In this project, we worked with Ames, IA housing data sets that occurred during 
 |**mo_sold**|*int*|Month sold|1 - January <-> 12 - December|
 |**yr_sold**|*int*|Year sold|year|
 |**sale_type**|*object*|Type of sale|WD - Warranty Deed - Conventional<br>CWD - Warranty Deed - Cash<br>VWD - Warranty Deed - VA Loan<br>New - Home just constructed and sold<br>COD - Court Officer Deed/Estate<br>Con - Contract 15% Down payment regular terms<br>ConLw - Contract Low Down payment and low interest<br>ConLI - Contract Low Interest<br>ConLD - Contract Low Down<br>Oth - Other|
+
+
+## Conclusions 
+Source Data Records with 2,050 home/building sales in Ames, IA from 2006 - 2010 and 80 building details.
+The characteristics included typical property features (eg. number of bedrooms and bathrooms; square footage), as well as ratings for house quality or condition, construction materials, zoning data, and location data.
+
+My model  was a Multiple Linear Regression Model that incorporated 12 features. I eliminated several features that are collinear,  dummified categorical features and converted ordinal features to numerical. I chose Lasso model due to the high number of variables and it will help me identify the crucial features by zeroing the less important features.
+
+
+### Main Takeaways and Future Improvements:
+ - Improve Feature Engineering and Selection:
+   - Recursive Feature Selection
+   - Reduce Multicollinearity
+ - GridSearchCV for tuning
+ - Impute missing data more effectively:
+  - Zeroing missing numeric data reduces predictive power of the variables.
+- Collect More Data:
+  - Incorporate interactions with buyers and sellers
+  - (eg. Listing vs Final Sale Price)
