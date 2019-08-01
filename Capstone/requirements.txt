@@ -1,0 +1,15 @@
+Flask==1.0.2
+gunicorn==19.9.0
+imbalanced-learn==0.4.3
+imblearn==0.0
+Jinja2==2.10
+joblib==0.13.2
+pandas==0.24.2
+scikit-learn==0.20.1
+scikit-multilearn==0.2.0
+sklearn==0.0
+twilio==6.29.1
+urllib3==1.24.1
+Werkzeug==0.14.1
+
+
