@@ -10,6 +10,6 @@ scikit-multilearn==0.2.0
 sklearn==0.0
 twilio==6.29.1
 urllib3==1.24.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 
 
