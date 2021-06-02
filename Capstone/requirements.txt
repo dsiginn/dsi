@@ -9,7 +9,7 @@ scikit-learn==0.20.1
 scikit-multilearn==0.2.0
 sklearn==0.0
 twilio==6.29.1
-urllib3==1.24.1
+urllib3==1.26.5
 Werkzeug==0.14.1
 
 
